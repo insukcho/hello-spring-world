@@ -15,7 +15,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
 jar {
-    baseName = 'spring-web-and-config'
+    baseName = 'hello-spring-world'
     version =  '1.0'
 }
 
