@@ -28,4 +28,16 @@ public class HelloControllerTests {
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("Hello World!")));
     }
+    @Test
+    public void getName() throws Exception {
+        mvc.perform(MockMvcRequestBuilders.get("/config/name").accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(content().string(equalTo("Chris Cho")));
+    }
+    @Test
+    public void getEmail() throws Exception {
+        mvc.perform(MockMvcRequestBuilders.get("/config/email").accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(content().string(equalTo("isi.cho@gmail.com")));
+    }
 }
