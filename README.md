@@ -1,4 +1,4 @@
-# spring-web-and-config
+# Hello Spring World !!
 
 ### Spring template sample project for junior spring developers
 I found junior developers,who has not enough experience of not only Spring projects but also development, struggle with most of Spring features event it is very simple.
