@@ -6,6 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
+        // spring-boot
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.1.RELEASE")
     }
 }
@@ -24,6 +25,8 @@ repositories {
 }
 
 dependencies {
+    // spring-boot
     compile("org.springframework.boot:spring-boot-starter-web")
+    // spring-test
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
