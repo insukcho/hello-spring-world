@@ -27,6 +27,16 @@ repositories {
 dependencies {
     // spring-boot
     compile("org.springframework.boot:spring-boot-starter-web")
+
+    // spring-data-jpa
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+
+    // build-in database
+    compile("com.h2database:h2")
+
     // spring-test
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    // junit
+    testCompile("junit:junit")
 }
