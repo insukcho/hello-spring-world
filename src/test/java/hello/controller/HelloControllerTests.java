@@ -46,6 +46,7 @@ public class HelloControllerTests {
     public void getAllUsers() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/users").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
+                .andExpect(content().string(containsString("Chris Cho")))
                 .andExpect(content().string(containsString("isi.cho@gmail.com")));
     }
 }
