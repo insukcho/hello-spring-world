@@ -18,3 +18,5 @@ I want to make simple template project as a example, and help them soving the pr
 * [Spring Boot with External Configuration](http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html)
 * [Spring Boot with Logging](http://docs.spring.io/spring-boot/docs/current/reference/html/howto-logging.html)
 * [Accessing data using Spring Data JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+
+WIP
